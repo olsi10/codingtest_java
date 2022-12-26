@@ -8,11 +8,11 @@ public class foreach {
         System.arraycopy(oldStrArr, 0, newStrArr, 0, oldStrArr.length);
 
 //        for(int i = 0; i < newStrArr.length; i++) {
-//            System.out.println(newStrArr[i] + ", ");
+//            System.out.print(newStrArr[i] + ", ");
 //        }
 
         for(String n : newStrArr) {
-            System.out.println(n + ", ");
+            System.out.print(n + ", ");
         }
     }
 }
