@@ -9,9 +9,9 @@ public class map {
     public static void main(String[] args) {
         Map<String, Integer> people = new HashMap<String, Integer>();
 
-        people.put("a길동", 86);
+        people.put("a길동", 100);
         people.put("b길동", 96);
-        people.put("c길동", 56);
+        people.put("c길동", 60);
 
         System.out.println("총 Entity = " + people.size());
 
