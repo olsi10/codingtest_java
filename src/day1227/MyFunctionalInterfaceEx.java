@@ -1,10 +1,5 @@
 package day1227;
 
-@FunctionalInterface
-public interface MyFunctionalInterface {
-    public void method();
-}
-
 public class MyFunctionalInterfaceEx {
     public static void main(String[] args) {
         MyFunctionalInterface f1;
