@@ -1,8 +1,11 @@
 package day1228;
 
+import java.util.Timer;
+
 public class threadLambda {
     public static void main(String[] args) {
 
+        // 람다식
         new Thread( () -> {
             while(true) {
                 try {
@@ -14,6 +17,10 @@ public class threadLambda {
             }
         }).start();
 
+        Timer t = new Timer(1000, event -> System.out.println("bepp"));
+        t.start();
+
+        // 일반 방법
 //        new Thread(new Runnable() {
 //            @Override
 //            public void run() {
