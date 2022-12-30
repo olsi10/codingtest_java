@@ -17,8 +17,8 @@ public class threadLambda {
             }
         }).start();
 
-        Timer t = new Timer(1000, event -> System.out.println("bepp"));
-        t.start();
+//        Timer t = new Timer(1000, event -> System.out.println("bepp"));
+//        t.start();
 
         // 일반 방법
 //        new Thread(new Runnable() {
